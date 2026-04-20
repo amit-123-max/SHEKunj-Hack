@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NeuroRead AI — real-time accessibility agent for neurodivergent users">
+  <title>NeuroRead AI</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header role="banner">
+    <div style="display:flex; align-items:center; justify-content:space-between;">
+      <h1>NeuroRead AI</h1>
+      <div style="display:flex; align-items:center; gap: 8px;">
+        <span
+          id="backend-status"
+          role="status"
+          aria-label="Backend: checking…"
+          title="Backend status"
+          style="width:8px;height:8px;background:#6B7280;border-radius:50%;display:inline-block;margin-top:2px;"
+        ></span>
+      </div>
+    </div>
+  </header>
+
+  <div id="convert-hero">
+    <button id="btn-convert-page" aria-label="Convert this page for accessibility">
+      <span id="convert-btn-icon">⚡</span>
+      <span id="convert-btn-label">Convert This Page</span>
+    </button>
+    <div id="convert-status-line">Applies formatting + focus + AI simplification</div>
+  </div>
+
+  <div id="cam-section" class="cam-container" style="display: none;">
+    <div class="cam-header">
+      <span class="cam-title">CAM Score</span>
+      <span class="cam-rating" id="cam-rating-badge">...</span>
+    </div>
+    <div class="cam-body">
+      <div class="cam-gauge-wrapper">
+        <div class="cam-gauge" id="cam-gauge-circle">
+          <span class="cam-score-val" id="cam-score-val">--</span>
+        </div>
+      </div>
+      <ul class="cam-insights" id="cam-insights-list">
+        <li>Analyzing cognitive load...</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title" id="profiles-label">Quick Profiles</div>
+  <div class="profiles-grid" role="group" aria-labelledby="profiles-label">
+    <div class="profile-card" data-preset="adhd" role="button" tabindex="0" aria-label="ADHD profile preset">
+      <div class="profile-icon" aria-hidden="true">🎯</div>
+      <div class="profile-name">ADHD</div>
+    </div>
+    <div class="profile-card" data-preset="dyslexia" role="button" tabindex="0" aria-label="Dyslexia profile preset">
+      <div class="profile-icon" aria-hidden="true">👁️</div>
+      <div class="profile-name">Dyslexia</div>
+    </div>
+    <div class="profile-card" data-preset="autism" role="button" tabindex="0" aria-label="Autism profile preset">
+      <div class="profile-icon" aria-hidden="true">🧩</div>
+      <div class="profile-name">Autism</div>
+    </div>
+    <div class="profile-card active" data-preset="custom" role="button" tabindex="0" aria-label="Custom profile (currently active)" aria-pressed="true">
+      <div class="profile-icon" aria-hidden="true">⚙️</div>
+      <div class="profile-name">Custom</div>
+    </div>
+  </div>
+
+  <div class="section-title" id="typography-label">Typography Adjustments</div>
+  <div class="typography-controls" role="group" aria-labelledby="typography-label">
+    <div class="slider-row">
+      <div class="slider-label">
+        <label for="font-size-slider">Text Size</label>
+        <span id="font-size-val" aria-live="polite">22px</span>
+      </div>
+      <input type="range" id="font-size-slider" min="16" max="32" value="22" step="1"
+             aria-label="Text size" aria-valuemin="16" aria-valuemax="32" aria-valuenow="22">
+    </div>
+    <div class="slider-row">
+      <div class="slider-label">
+        <label for="line-spacing-slider">Line Spacing</label>
+        <span id="line-spacing-val" aria-live="polite">1.9</span>
+      </div>
+      <input type="range" id="line-spacing-slider" min="1.0" max="2.6" step="0.1" value="1.9"
+             aria-label="Line spacing" aria-valuemin="1.0" aria-valuemax="2.6" aria-valuenow="1.9">
+    </div>
+    <div class="slider-row">
+      <div class="slider-label">
+        <label for="read-speed-slider">Reading Speed</label>
+        <span id="read-speed-val" aria-live="polite">1.0x</span>
+      </div>
+      <input type="range" id="read-speed-slider" min="0.5" max="2.0" step="0.1" value="1.0"
+             aria-label="Reading speed" aria-valuemin="0.5" aria-valuemax="2.0" aria-valuenow="1.0">
+    </div>
+  </div>
+
+  <div class="section-title">Features</div>
+  <div class="features-container">
+    
+    <div class="feature-row">
+      <div class="feature-info">
+        <div class="feature-name">Formatting</div>
+        <div class="feature-desc">AI-tailored typography & colors</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="toggle-formatting">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-info">
+        <div class="feature-name">Focus Block</div>
+        <div class="feature-desc">Block ads & autoplay videos</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="toggle-focus">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-info">
+        <div class="feature-name">True Focus</div>
+        <div class="feature-desc">Hide all menus & sidebars</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="toggle-focus-mode">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-info">
+        <div class="feature-name">Focus Reader</div>
+        <div class="feature-desc">AI point-by-point overhaul</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="toggle-reader">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-info">
+        <div class="feature-name">Simplify Text</div>
+        <div class="feature-desc">Explain complex text simply</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="toggle-simplify">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-info">
+        <div class="feature-name">Read Aloud</div>
+        <div class="feature-desc">Word-highlighting TTS</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="toggle-read">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-info">
+        <div class="feature-name">Image Explainer</div>
+        <div class="feature-desc">AI plain-language descriptions</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="toggle-explain">
+        <span class="slider"></span>
+      </label>
+    </div>
+    
+    <div class="feature-row">
+      <div class="feature-info">
+        <div class="feature-name">Tone & Subtext</div>
+        <div class="feature-desc">AI emotional intent breakdown</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="toggle-tone">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-info">
+        <div class="feature-name">Navigation</div>
+        <div class="feature-desc">Floating TOC & deep search</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="toggle-toc">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-info">
+        <div class="feature-name">Read Ruler</div>
+        <div class="feature-desc">Mouse-tracking focus line</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="toggle-ruler">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="feature-row voice-row">
+      <div class="feature-info">
+        <div class="feature-name">Voice Command</div>
+        <div class="feature-desc">Hands-free control</div>
+      </div>
+      <button id="btn-voice">🎤 Listen</button>
+    </div>
+
+  </div>
+
+  <div id="status" role="status" aria-live="polite">NeuroRead is Ready.</div>
+
+  <!-- Keyboard Shortcuts Legend -->
+  <details class="shortcuts-section" aria-label="Keyboard shortcuts">
+    <summary class="shortcuts-summary">⌨️ Keyboard Shortcuts</summary>
+    <div class="shortcuts-grid" role="list">
+      <div role="listitem"><kbd>Alt+C</kbd> Convert Page</div>
+      <div role="listitem"><kbd>Alt+F</kbd> Format</div>
+      <div role="listitem"><kbd>Alt+S</kbd> Simplify</div>
+      <div role="listitem"><kbd>Alt+L</kbd> Listen</div>
+      <div role="listitem"><kbd>Alt+M</kbd> Voice</div>
+      <div role="listitem"><kbd>Alt+Z</kbd> Focus Mode</div>
+      <div role="listitem"><kbd>Alt+R</kbd> Ruler</div>
+      <div role="listitem"><kbd>Alt+I</kbd> Images</div>
+    </div>
+  </details>
+
+  <script src="popup.js"></script>
+</body>
+</html>
