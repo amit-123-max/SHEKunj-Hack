@@ -55,6 +55,8 @@ sequenceDiagram
     G-->>T: Success 200
     T-->>S: Return Result
 ```
+
+![alt text](image.png)
 ### 🧠 Core Logic & Rationale
 
 #### 1. AI/ML Model Selection & Why Groq Over Alternatives
