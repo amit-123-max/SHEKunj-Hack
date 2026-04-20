@@ -1,0 +1,911 @@
+[
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://ex.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1.0,
+    "notes": ""
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://codeforces.com/",
+    "profile_neurotype": "dyslexia",
+    "timestamp": 1776446820.355,
+    "notes": ""
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com/article",
+    "profile_neurotype": "adhd",
+    "timestamp": 1776519121.2094378,
+    "notes": "latency=450ms | session=test-session-01"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "focusMode",
+    "rating": "too_strong",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776519121.212031,
+    "notes": "latency=800ms | session=test-session-02"
+  },
+  {
+    "action_type": "unknown",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776519121.21411,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "https://example.com/blog",
+    "profile_neurotype": "blind",
+    "timestamp": 1776519121.216079,
+    "notes": "latency=3200ms | session=test-session-03"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com/article",
+    "profile_neurotype": "adhd",
+    "timestamp": 1776520407.664741,
+    "notes": "latency=450ms | session=test-session-01"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "focusMode",
+    "rating": "too_strong",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776520407.667061,
+    "notes": "latency=800ms | session=test-session-02"
+  },
+  {
+    "action_type": "unknown",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776520407.669259,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "https://example.com/blog",
+    "profile_neurotype": "blind",
+    "timestamp": 1776520407.671464,
+    "notes": "latency=3200ms | session=test-session-03"
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://en.wikipedia.org/wiki/Neurodiversity",
+    "profile_neurotype": "",
+    "timestamp": 1776529489.670244,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com/article",
+    "profile_neurotype": "adhd",
+    "timestamp": 1776543317.8239,
+    "notes": "latency=450ms | session=test-session-01"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "focusMode",
+    "rating": "too_strong",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776543317.826262,
+    "notes": "latency=800ms | session=test-session-02"
+  },
+  {
+    "action_type": "unknown",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776543317.828483,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "https://example.com/blog",
+    "profile_neurotype": "blind",
+    "timestamp": 1776543317.831114,
+    "notes": "latency=3200ms | session=test-session-03"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com/article",
+    "profile_neurotype": "adhd",
+    "timestamp": 1776544028.0820632,
+    "notes": "latency=450ms | session=test-session-01"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "focusMode",
+    "rating": "too_strong",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776544028.084224,
+    "notes": "latency=800ms | session=test-session-02"
+  },
+  {
+    "action_type": "unknown",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776544028.086185,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "https://example.com/blog",
+    "profile_neurotype": "blind",
+    "timestamp": 1776544028.0881898,
+    "notes": "latency=3200ms | session=test-session-03"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1776544028.124057,
+    "notes": "latency=342ms | session=test-abc"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "focus",
+    "rating": "too_strong",
+    "page_url": "",
+    "profile_neurotype": "dyslexia",
+    "timestamp": 1776544028.1261902,
+    "notes": "latency=120ms | session=test-def"
+  },
+  {
+    "action_type": "unknown",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776544028.128234,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1776544040.082191,
+    "notes": "latency=342ms | session=test-abc"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "focus",
+    "rating": "too_strong",
+    "page_url": "",
+    "profile_neurotype": "dyslexia",
+    "timestamp": 1776544040.084428,
+    "notes": "latency=120ms | session=test-def"
+  },
+  {
+    "action_type": "unknown",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776544040.086972,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://commons.wikimedia.org/wiki/Main_Page",
+    "profile_neurotype": "",
+    "timestamp": 1776544678.119669,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://commons.wikimedia.org/wiki/Main_Page",
+    "profile_neurotype": "",
+    "timestamp": 1776544716.100499,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://codeforces.com/",
+    "profile_neurotype": "",
+    "timestamp": 1776544745.316145,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776545247.6800761,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dense+text+article&oq=dense+text+article&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRifBdIBCDY0NDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776545411.943434,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dense+text+article&oq=dense+text+article&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRifBdIBCDY0NDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776545545.794227,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com/article",
+    "profile_neurotype": "adhd",
+    "timestamp": 1776547094.571733,
+    "notes": "latency=450ms | session=test-session-01"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "focusMode",
+    "rating": "too_strong",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776547094.575884,
+    "notes": "latency=800ms | session=test-session-02"
+  },
+  {
+    "action_type": "unknown",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776547094.57813,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "https://example.com/blog",
+    "profile_neurotype": "blind",
+    "timestamp": 1776547094.580429,
+    "notes": "latency=3200ms | session=test-session-03"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1776547094.640268,
+    "notes": "latency=342ms | session=test-abc"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "focus",
+    "rating": "too_strong",
+    "page_url": "",
+    "profile_neurotype": "dyslexia",
+    "timestamp": 1776547094.642838,
+    "notes": "latency=120ms | session=test-def"
+  },
+  {
+    "action_type": "unknown",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776547094.645122,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dense+text+article&oq=dense+text+article&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRifBdIBCDY0NDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776547969.351007,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#sv=CAMSNhowKg5UVmRKekU4WGZmODNjTTIOVFZkSnpFOFhmZjgzY006DklxWUc4dFJHUDc3T3JNIAQ4ABgHIIOaseoISggQARgBIAEoAQ",
+    "profile_neurotype": "",
+    "timestamp": 1776548088.112177,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://codeforces.com/",
+    "profile_neurotype": "",
+    "timestamp": 1776548744.798069,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776548791.083095,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776548910.409405,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776549872.244993,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://codeforces.com/",
+    "profile_neurotype": "",
+    "timestamp": 1776549983.045501,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#sv=CAMSNhowKg5UVmRKekU4WGZmODNjTTIOVFZkSnpFOFhmZjgzY006DklxWUc4dFJHUDc3T3JNIAQ4ABgHIIOaseoISggQARgBIAEoAQ",
+    "profile_neurotype": "",
+    "timestamp": 1776550831.3128388,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#sv=CAMSNhowKg5UVmRKekU4WGZmODNjTTIOVFZkSnpFOFhmZjgzY006DklxWUc4dFJHUDc3T3JNIAQ4ABgHIIOaseoISggQARgBIAEoAQ",
+    "profile_neurotype": "",
+    "timestamp": 1776550905.8781781,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776550939.348096,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776550962.040618,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776551122.126699,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com/article",
+    "profile_neurotype": "adhd",
+    "timestamp": 1776551330.858328,
+    "notes": "latency=450ms | session=test-session-01"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "focusMode",
+    "rating": "too_strong",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776551330.860805,
+    "notes": "latency=800ms | session=test-session-02"
+  },
+  {
+    "action_type": "unknown",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776551330.863023,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "https://example.com/blog",
+    "profile_neurotype": "blind",
+    "timestamp": 1776551330.86523,
+    "notes": "latency=3200ms | session=test-session-03"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1776551330.919311,
+    "notes": "latency=342ms | session=test-abc"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "focus",
+    "rating": "too_strong",
+    "page_url": "",
+    "profile_neurotype": "dyslexia",
+    "timestamp": 1776551330.9214709,
+    "notes": "latency=120ms | session=test-def"
+  },
+  {
+    "action_type": "unknown",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776551330.923601,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com",
+    "profile_neurotype": "adhd",
+    "timestamp": 1000000.0,
+    "notes": "This was great!"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://example.com/article",
+    "profile_neurotype": "adhd",
+    "timestamp": 1776551354.302269,
+    "notes": "latency=450ms | session=test-session-01"
+  },
+  {
+    "action_type": "feature",
+    "feature_name": "focusMode",
+    "rating": "too_strong",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776551354.304802,
+    "notes": "latency=800ms | session=test-session-02"
+  },
+  {
+    "action_type": "unknown",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "",
+    "profile_neurotype": "",
+    "timestamp": 1776551354.307189,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "",
+    "rating": "helpful",
+    "page_url": "https://example.com/blog",
+    "profile_neurotype": "blind",
+    "timestamp": 1776551354.309547,
+    "notes": "latency=3200ms | session=test-session-03"
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776551428.556442,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776551453.011072,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776551453.0253708,
+    "notes": "latency=36ms | session=4c5f74d2"
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#sv=CAMSNhowKg44ZFBnTnoyN1dpZDNlTTIOOGRQZ056MjdXaWQzZU06DmdIMUpLWFJqeU9sMDNNIAQ4ABgHIP_Zh5QJSggQARgBIAEoAQ",
+    "profile_neurotype": "",
+    "timestamp": 1776551487.151639,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dog+images&oq=dog+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#sv=CAMSNhowKg44ZFBnTnoyN1dpZDNlTTIOOGRQZ056MjdXaWQzZU06DmdIMUpLWFJqeU9sMDNNIAQ4ABgHIP_Zh5QJSggQARgBIAEoAQ",
+    "profile_neurotype": "",
+    "timestamp": 1776551487.163946,
+    "notes": "latency=35ms | session=c8b9eab1"
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://codeforces.com/",
+    "profile_neurotype": "",
+    "timestamp": 1776551528.243936,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://codeforces.com/",
+    "profile_neurotype": "",
+    "timestamp": 1776551528.250867,
+    "notes": "latency=11ms | session=9ae3a9d2"
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=ytest+without+image&oq=ytest+without+image&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yBwgFEAAY7wUyBwgGEAAY7wUyCggHEAAYgAQYogQyCggIEAAYgAQYogTSAQg0MTM3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776551564.564951,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=ytest+without+image&oq=ytest+without+image&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yBwgFEAAY7wUyBwgGEAAY7wUyCggHEAAYgAQYogQyCggIEAAYgAQYogTSAQg0MTM3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776551564.57289,
+    "notes": "latency=14ms | session=e2e63a7b"
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.blindtextgenerator.com/lorem-ipsum",
+    "profile_neurotype": "",
+    "timestamp": 1776551607.947293,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.blindtextgenerator.com/lorem-ipsum",
+    "profile_neurotype": "",
+    "timestamp": 1776551607.957769,
+    "notes": "latency=15ms | session=fd618ce8"
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.blindtextgenerator.com/about-lorem-ipsum",
+    "profile_neurotype": "",
+    "timestamp": 1776551617.761417,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "vision",
+    "feature_name": "imageExplainer",
+    "rating": "helpful",
+    "page_url": "https://www.blindtextgenerator.com/about-lorem-ipsum",
+    "profile_neurotype": "",
+    "timestamp": 1776551617.768589,
+    "notes": "latency=13ms | session=b1f681df"
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dense+text+article&oq=dense+text+article&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRifBdIBCDY0NDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776551634.871029,
+    "notes": "latency=0ms | session="
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dense+text+article&oq=dense+text+article&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRifBdIBCDY0NDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776551647.407,
+    "notes": ""
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dense+text+article&oq=dense+text+article&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRifBdIBCDY0NDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776551647.806,
+    "notes": ""
+  },
+  {
+    "action_type": "simplify",
+    "feature_name": "simplify",
+    "rating": "helpful",
+    "page_url": "https://www.google.com/search?q=dense+text+article&oq=dense+text+article&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRifBdIBCDY0NDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+    "profile_neurotype": "",
+    "timestamp": 1776551648.573,
+    "notes": ""
+  }
+]
