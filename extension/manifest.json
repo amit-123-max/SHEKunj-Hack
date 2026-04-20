@@ -1,0 +1,66 @@
+{
+  "manifest_version": 3,
+  "name": "NeuroRead AI",
+  "version": "2.0.0",
+  "description": "AI-powered accessibility for neurodivergent readers.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "alarms",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "tts",
+    "microphone"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": [
+        "features/accessibility.css"
+      ],
+      "js": [
+        "features/utils.js",
+        "features/formatting.js",
+        "features/focus-blocker.js",
+        "features/ai-text.js",
+        "features/speech-in.js",
+        "features/speech-out.js",
+        "features/visual-enhancement.js",
+        "features/focus-mode.js",
+        "features/read-ruler.js",
+        "features/image-explainer.js",
+        "features/tone-analyzer.js",
+        "features/profile-panel.js",
+        "features/telemetry.js",
+        "features/agent-client.js",
+        "features/explainability.js",
+        "features/metrics-panel.js",
+        "features/toolbar.js",
+        "features/reader-mode.js",
+        "features/universal-convert.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "NeuroRead AI"
+  }
+}

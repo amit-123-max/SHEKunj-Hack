@@ -1,0 +1,262 @@
+/* NeuroRead AI — accessibility.css
+   Shared accessibility styles for all injected UI components.
+   Covers: focus outlines, reduced motion, high contrast, deaf mode (captions),
+   blind mode (screen reader helpers), motor disability (keyboard-first),
+   dyslexia (reading aids), and ADHD (focus tools). */
+
+/* ─── Focus Visible Outlines (all interactive elements) ─────── */
+.nr-focusable:focus-visible,
+.nr-tb-btn:focus-visible,
+#nr-productivity-toolbar button:focus-visible,
+.nr-profile-panel button:focus-visible,
+.nr-profile-panel select:focus-visible,
+.nr-profile-panel input:focus-visible,
+.nr-explain-card button:focus-visible,
+.nr-feedback-widget button:focus-visible,
+.nr-metrics-panel button:focus-visible,
+.nr-suggestion-toast button:focus-visible,
+.nr-why-card button:focus-visible,
+.nr-tone-card button:focus-visible,
+.nr-convert-result-card button:focus-visible,
+#nr-suggestion-toast button:focus-visible {
+  outline: 3px solid #7C3AED !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.25) !important;
+  border-radius: 4px;
+}
+
+/* ─── Skip to Content Link (keyboard-first, motor disability) ── */
+.nr-skip-link {
+  position: fixed;
+  top: -100px;
+  left: 16px;
+  background: #7C3AED;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 0 0 8px 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 2147483647;
+  transition: top 0.2s ease;
+  text-decoration: none;
+}
+.nr-skip-link:focus {
+  top: 0;
+}
+
+/* ─── Reduced Motion ──────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .nr-tb-btn,
+  #nr-productivity-toolbar,
+  .nr-explain-card,
+  .nr-feedback-widget,
+  .nr-suggestion-toast,
+  .nr-why-card,
+  .nr-profile-panel,
+  .nr-metrics-panel,
+  #nr-focus-reader-overlay,
+  #nr-focus-reader-overlay .nr-section,
+  .nr-simplifying,
+  .nr-simplified,
+  #nr-highlight-band,
+  #nr-convert-badge,
+  #nr-convert-result-card,
+  .nr-tone-card {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  @keyframes nr-tb-pulse { 0%, 100% { box-shadow: none; } }
+  @keyframes nr-spin { 0%, 100% { transform: none; } }
+  @keyframes nr-fade-in { from, to { opacity: 1; } }
+  @keyframes nr-tb-convert-pulse { 0%, 100% { box-shadow: none; } }
+  @keyframes nr-arrow-pulse { 0%, 100% { transform: scale(1); } }
+}
+
+/* ─── High Contrast Mode (prefers-contrast) ──────────────────── */
+@media (prefers-contrast: more) {
+  #nr-productivity-toolbar {
+    background: #000 !important;
+    border: 2px solid #fff !important;
+  }
+  .nr-tb-btn {
+    color: #fff !important;
+    border: 1px solid rgba(255,255,255,0.5) !important;
+  }
+  .nr-tb-btn.nr-active {
+    background: #1a1aff !important;
+    color: #fff !important;
+    border-color: #fff !important;
+  }
+  .nr-profile-panel,
+  .nr-metrics-panel,
+  .nr-why-card,
+  #nr-suggestion-toast,
+  .nr-tone-card,
+  #nr-convert-result-card,
+  #nr-convert-badge {
+    background: #000 !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+  }
+  /* Ensure all text is readable */
+  .nr-tb-btn span,
+  .nr-toast-message,
+  .nr-tone-section-text,
+  .nr-result-headline {
+    color: #fff !important;
+  }
+}
+
+/* ─── Windows Forced Colors / High Contrast ──────────────────── */
+@media (forced-colors: active) {
+  #nr-productivity-toolbar {
+    background: Canvas !important;
+    border: 2px solid ButtonText !important;
+    color: ButtonText !important;
+  }
+  .nr-tb-btn {
+    background: ButtonFace !important;
+    color: ButtonText !important;
+    border: 1px solid ButtonText !important;
+  }
+  .nr-tb-btn.nr-active {
+    background: Highlight !important;
+    color: HighlightText !important;
+  }
+  .nr-tb-btn:focus-visible {
+    outline: 3px solid Highlight !important;
+  }
+}
+
+/* ─── Deaf Mode: Live Caption/Subtitle Panel ─────────────────── */
+#nr-subtitle-panel {
+  position: fixed;
+  bottom: 78px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 12px 24px;
+  border-radius: 12px;
+  max-width: 70vw;
+  text-align: center;
+  z-index: 2147483644;
+  pointer-events: none;
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  animation: nr-subtitle-appear 0.2s ease;
+}
+#nr-subtitle-panel.nr-subtitle-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.nr-subtitle-text {
+  font-weight: 500;
+}
+.nr-subtitle-speaker {
+  font-size: 12px;
+  color: #A78BFA;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+@keyframes nr-subtitle-appear {
+  from { opacity: 0; transform: translateX(-50%) translateY(8px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+/* ─── Blind Mode: Screen Reader Only (visually hidden) ────────── */
+.nr-sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* ─── Live Region Announcer (screen reader announcements) ─────── */
+#nr-live-announcer {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* ─── Dyslexia: Reading Highlight Band ──────────────────────── */
+#nr-highlight-band {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  background: rgba(124, 58, 237, 0.06);
+  border-top: 2px solid rgba(124, 58, 237, 0.2);
+  border-bottom: 2px solid rgba(124, 58, 237, 0.2);
+  pointer-events: none;
+  z-index: 2147483640;
+  transition: top 0.1s ease;
+}
+
+/* ─── ADHD/Focus: Simplified Page Overlay ───────────────────── */
+body.nr-focus-block-active [class*='ad-'],
+body.nr-focus-block-active [class*='banner'],
+body.nr-focus-block-active [class*='sponsored'],
+body.nr-focus-block-active aside:not(article aside) {
+  display: none !important;
+}
+
+/* ─── Keyboard Shortcut Legend Overlay ──────────────────────── */
+#nr-shortcuts-overlay {
+  position: fixed;
+  bottom: 90px;
+  right: 24px;
+  background: rgba(15, 15, 20, 0.97);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(124, 58, 237, 0.3);
+  border-radius: 14px;
+  padding: 16px 20px;
+  z-index: 2147483644;
+  color: #E0E7FF;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 12px;
+  min-width: 260px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  display: none;
+}
+#nr-shortcuts-overlay.nr-visible { display: block; }
+.nr-shortcut-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  gap: 16px;
+}
+.nr-shortcut-row:last-child { border-bottom: none; }
+.nr-shortcut-key {
+  background: rgba(124, 58, 237, 0.2);
+  border: 1px solid rgba(124, 58, 237, 0.3);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-family: monospace;
+  font-size: 11px;
+  color: #A78BFA;
+  white-space: nowrap;
+}
+.nr-shortcut-desc {
+  color: #C4B5FD;
+  flex: 1;
+}
+
+
