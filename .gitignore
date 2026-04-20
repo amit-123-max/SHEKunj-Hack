@@ -1,0 +1,9 @@
+NeuroRead_AI_v2.docx
+venv/
+.env
+venv/
+__pycache__/
+.env
+node_modules/
+*.pyc
+.DS_Store

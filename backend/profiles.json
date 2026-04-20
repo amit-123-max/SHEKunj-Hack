@@ -1,0 +1,50 @@
+{
+  "cm_default": {
+    "user_id": "cm_default",
+    "neurotype": "none",
+    "preferred_font_size": 22,
+    "line_height": 1.9,
+    "simplification_level": 2,
+    "tts_speed": 1.0,
+    "focus_intensity": 2,
+    "contrast_mode": "default",
+    "tone_explanation_depth": 2,
+    "auto_adapt_enabled": false
+  },
+  "cm_high": {
+    "user_id": "cm_high",
+    "neurotype": "none",
+    "preferred_font_size": 22,
+    "line_height": 1.9,
+    "simplification_level": 2,
+    "tts_speed": 1.0,
+    "focus_intensity": 2,
+    "contrast_mode": "high",
+    "tone_explanation_depth": 2,
+    "auto_adapt_enabled": false
+  },
+  "cm_dark": {
+    "user_id": "cm_dark",
+    "neurotype": "none",
+    "preferred_font_size": 22,
+    "line_height": 1.9,
+    "simplification_level": 2,
+    "tts_speed": 1.0,
+    "focus_intensity": 2,
+    "contrast_mode": "dark",
+    "tone_explanation_depth": 2,
+    "auto_adapt_enabled": false
+  },
+  "cm_sepia": {
+    "user_id": "cm_sepia",
+    "neurotype": "none",
+    "preferred_font_size": 22,
+    "line_height": 1.9,
+    "simplification_level": 2,
+    "tts_speed": 1.0,
+    "focus_intensity": 2,
+    "contrast_mode": "sepia",
+    "tone_explanation_depth": 2,
+    "auto_adapt_enabled": false
+  }
+}
